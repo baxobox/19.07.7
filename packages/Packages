@@ -1,0 +1,186 @@
+Package: cgi-io
+Version: 19
+Depends: libc, libubox20191228, libubus20191227
+License: GPL-2.0-or-later
+Section: net
+Architecture: mips_24kc
+Installed-Size: 7448
+Filename: cgi-io_19_mips_24kc.ipk
+Size: 8232
+SHA256sum: 0ceca09b4af0b303d055bab6f6652fbc167f79624a2df6773dcab49e64aaba2c
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: ddns-scripts
+Version: 2.7.8-13
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 15007
+Filename: ddns-scripts_2.7.8-13_all.ipk
+Size: 16075
+SHA256sum: 3ca0193c9280b80471d635285b3aafe619614114b83b11e7d54e846ea1bcfe08
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: grep
+Version: 3.3-1
+Depends: libc, libpcre
+License: GPL-3.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 75766
+Filename: grep_3.3-1_mips_24kc.ipk
+Size: 76655
+SHA256sum: 20ae50b25cda9f75a67f215a89556517ac7eb56b290d270be5c5b1de01d4eef5
+Description:  The grep command searches one or more input files for lines
+ containing a match to a specified pattern. By default, grep
+ prints the matching lines.
+
+Package: libcap
+Version: 2.27-1
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 6112
+Filename: libcap_2.27-1_mips_24kc.ipk
+Size: 6834
+SHA256sum: 4a6e0c0f2a06d8d6f0ae089db7eb363cfb797ba12f74760118d693809e7930d2
+Description:  Linux capabilities library
+
+Package: libkmod
+Version: 20-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 29283
+Filename: libkmod_20-2_mips_24kc.ipk
+Size: 30038
+SHA256sum: 911526322a41b3950c4c827c6666417a341fd19fd652b75a843f3e2bf49dad9e
+Description:  Linux kernel module handling (library)
+
+Package: libpci
+Version: 3.6.2-3
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 18637
+Filename: libpci_3.6.2-3_mips_24kc.ipk
+Size: 19343
+SHA256sum: e8cfd5877dd4a41a539c11cf5628c1c77ecaa150d5eea7591a0d5ca9d23059a6
+Description:  Linux PCI Libraries
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 80473
+Filename: libpcre_8.43-1_mips_24kc.ipk
+Size: 81325
+SHA256sum: c2d144d657ab19f6aecff0f0e1308a1fff24c5c20ac8abe50c0d17e6cf2aaca7
+Description:  A Perl Compatible Regular Expression library
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-3
+Depends: libc, libubox20191228, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: mips_24kc
+Installed-Size: 16376
+Filename: nlbwmon_2020-04-11.1-34a18876-3_mips_24kc.ipk
+Size: 17162
+SHA256sum: 668d61adf2add22ba345e5cf15e16e59c6e7ffe8a8c9eda12795d03766411ac7
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: openssh-sftp-server
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mips_24kc
+Installed-Size: 39501
+Filename: openssh-sftp-server_8.0p1-1_mips_24kc.ipk
+Size: 40247
+SHA256sum: ba56764fc69c76308f81ed122efc666a75a3f2453103a8e5d98779d88f1b7f45
+Description:  OpenSSH SFTP server.
+
+Package: pciutils
+Version: 3.6.2-3
+Depends: libc, libkmod, libpci
+License: GPL-2.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 317638
+Filename: pciutils_3.6.2-3_mips_24kc.ipk
+Size: 317797
+SHA256sum: b5d505191721c1408291d9c0e76835dd5c831b00f4ec93d582d38bf940ff31ee
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: softflowd
+Version: 0.9.9-2
+Depends: libc, libpcap1
+License: BSD-3-Clause
+Section: net
+Architecture: mips_24kc
+Installed-Size: 19035
+Filename: softflowd_0.9.9-2_mips_24kc.ipk
+Size: 19729
+SHA256sum: 1e2bd2e84cd7ab6fa62461767f2e0278202d2ba390f6613f54fd754795146d28
+Description:  Software netflow exporter
+
+Package: udptunnel
+Version: 1.1-1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+Architecture: mips_24kc
+Installed-Size: 4568
+Filename: udptunnel_1.1-1_mips_24kc.ipk
+Size: 5387
+SHA256sum: 367f63c3b5b81cca3747568dba541b47cd93c6e172daea8fa035d66f534264fd
+Description:  UDPTunnel is a small program which can tunnel UDP packets bi-directionally
+ over a TCP connection. Its primary purpose (and original motivation) is to
+ allow multi-media conferences to traverse a firewall which allows only outgoing
+ TCP connections.
+
+Package: vim
+Version: 8.1-6
+Depends: libc, libncurses6
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 292835
+Filename: vim_8.1-6_mips_24kc.ipk
+Size: 293468
+SHA256sum: 3f744e116aa45e4f62d15e123aa9b9cb0232e8e07638874d73e2caa5719dab16
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+
+Package: vpn-policy-routing
+Version: 0.2.1-13
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 11569
+Filename: vpn-policy-routing_0.2.1-13_all.ipk
+Size: 12736
+SHA256sum: a7ea1aecb46c8504f7a4844d24d4fb64df8ef4906916c5eddd069b8085cda77d
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: vpnc-scripts
+Version: 20151220-2
+Depends: libc
+Section: net
+Architecture: all
+Installed-Size: 2288
+Filename: vpnc-scripts_20151220-2_all.ipk
+Size: 3068
+SHA256sum: 9544c7935c0ed90466543c3f23cea27623a028d467c769b18d730d6dc1d21ba6
+Description:  This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+
